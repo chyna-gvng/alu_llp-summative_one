@@ -1,2 +1,2 @@
-# alu_llp-summative_one
-Summative One
+### Low Level Programming
+Readme file for the repo *alu_llp-summative_one*.

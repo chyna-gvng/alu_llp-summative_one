@@ -16,3 +16,10 @@ The consultant designed a circuit with the following components:
 - Green LED: This LED will keep up lighted up when water is still in sufficient level.
 - Red LED: This LED will keep up lighted up when water is bellow sufficient level but still above critical level.
 - Resistor: This controls the current flow such that voltage from the source is reduced to get to the appliance in the required amount.
+
+#### Expected Work
+- You are required to follow the diagram to make this circuit on the Tinkercad
+- Write a program that will make this system work as expected.
+- The system will have the green LED turned on when the level of water is still above 3.5 meters of tank measured from the bottom of the tank.
+- The system will have the red LED turned on when the level of water is below 3.5 meters and above 1.5 meters measured from the bottom of the tank.
+- The system will have the buzzer beeping every 10 seconds when the water level goes below 1.5 meters. At the same time the red light will toggle between on and off along with the buzzer sounding.

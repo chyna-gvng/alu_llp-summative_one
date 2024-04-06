@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    FILE *input_file = fopen("candidates.txt", "r");
+    FILE *input_file = fopen("summative/candidates.txt", "r");
     FILE *output_file = fopen("unique_candidates.txt", "w");
 
     if (input_file == NULL) {

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // Function prototypes
 void bubbleSort(int arr[], int n, int (*cmp)(int, int));

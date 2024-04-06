@@ -4,15 +4,18 @@
 
 int main() {
     FILE *input_file = fopen("summative/candidates.txt", "r");
-    FILE *output_file = fopen("unique_candidates.txt", "w");
+    FILE *output_file = NULL;
+    FILE *pipe_stream = NULL;
 
     if (input_file == NULL) {
         fprintf(stderr, "Failed to open input file.\n");
         return 1;
     }
 
-    if (output_file == NULL) {
-        fprintf(stderr, "Failed to create output file.\n");
+    // Open pipe for redirection
+    pipe_stream = popen("cat > unique_candidates.txt", "w");
+    if (pipe_stream == NULL) {
+        fprintf(stderr, "Failed to open pipe for redirection.\n");
         fclose(input_file);
         return 1;
     }
@@ -33,15 +36,15 @@ int main() {
             }
         }
 
-        // If not a duplicate, write to output file
+        // If not a duplicate, write to pipe for redirection
         if (!duplicate) {
-            fprintf(output_file, "%s\n", candidate[count]);
+            fprintf(pipe_stream, "%s\n", candidate[count]);
             count++;
         }
     }
 
     fclose(input_file);
-    fclose(output_file);
+    pclose(pipe_stream);
 
     printf("Unique candidates saved to unique_candidates.txt\n");
 

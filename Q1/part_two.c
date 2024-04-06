@@ -37,6 +37,7 @@ int main() {
         printf("PIN not found in the file.\n");
     } else {
         double probability = (double)(totalCombinations - position) / totalCombinations;
+        printf("Position of PIN %s: %d\n", pin, position);
         printf("Probability of finding PIN %s based on its position: %.10f\n", pin, probability);
     }
 

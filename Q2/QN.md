@@ -8,7 +8,7 @@ The consultant made the following observations:
 - When the tank is full of water, the distance from the top of the tank to the water level is 4cm.
 - As water reduce in the tank, the distance between the top and water level keeps increasing until it becomes 4 meters when water has been completely used from the tank.
 
-The work of a consultant
+##### The work of a consultant
 
 The consultant designed a circuit with the following components:
 

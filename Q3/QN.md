@@ -12,5 +12,5 @@ You are required to write a program that will iterate through the directory and 
 
 #### Task 2:
 Looking at the list of all candidates from candidates.txt file, some candidates appear more than once hence there is a need remove all duplicates and only keep unique candidates.
-Write a program that will take candidates and remove all duplicate names
-Use redirection or pipe to save the output of the executed program into answer file named unique_candidate.txt
+- Write a program that will take candidates and remove all duplicate names
+- Use redirection or pipe to save the output of the executed program into answer file named unique_candidate.txt

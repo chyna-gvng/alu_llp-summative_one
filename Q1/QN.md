@@ -7,7 +7,7 @@ People are using mobile money to receive and send money, the security of their m
 - Each digit slot has an equal possibility of being occupied by 10 digits [from 0 to 9 all inclusive].
 
 #### Expected Tasks:
-Part I: Write a program that completes the following tasks:
+##### Part I: Write a program that completes the following tasks:
 - You will generate all PINs satisfying the business rules.
 - All generated PINs will be recorded in a file named generated_passwords.txt in the same directory as the executing program.
 

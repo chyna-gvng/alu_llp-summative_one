@@ -1,5 +1,5 @@
 ### QUESTION ONE
-#### Case Study: MoMo Pin Generation & Cracking.
+#### Case Study: MoMo Pin Generation & Cracking
 People are using mobile money to receive and send money, the security of their money depends on the PIN (Personal Identification Number). John is interested in finding all possible combinations of PINs that are used by MoMo clients. 
 
 #### Business Rules:

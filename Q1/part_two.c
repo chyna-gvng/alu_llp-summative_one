@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <math.h> // Include math.h for sqrt function
 
 int main() {
     char pin[6]; // 5 digits + '\0'
@@ -27,9 +26,8 @@ int main() {
     if (totalPins == 0) {
         printf("No PINs found in the file.\n");
     } else {
-        // Adjusting the probability calculation as per the new requirement
-        double adjustedProbability = (double)matchedPins / sqrt(totalPins);
-        printf("Adjusted probability of finding PIN %s: %.10f\n", pin, adjustedProbability);
+        double probability = (double)matchedPins / totalPins;
+        printf("Probability of finding PIN %s: %.10f\n", pin, probability);
     }
 
     return 0;

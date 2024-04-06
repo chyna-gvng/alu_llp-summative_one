@@ -1,8 +1,6 @@
 ### QUESTION TWO
 Sarah lives in place where municipal water comes less often, as a result Sarah decided to set up a water tank which serves home use and home garden. Sarah has one challenge that water get finished unnoticed instead of getting an alert at some point such that some unnecessary water use is avoided.
-
 To solve the challenge, Sarah got a systems engineer consultant who suggested a kit that keeps track of water level in real time.
-
 The consultant made the following observations:
 
 The tank has 4 meters height

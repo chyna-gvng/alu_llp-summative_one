@@ -9,7 +9,6 @@ The consultant made the following observations:
 - As water reduce in the tank, the distance between the top and water level keeps increasing until it becomes 4 meters when water has been completely used from the tank.
 
 #### The Work Of The Consultant
-
 The consultant designed a circuit with the following components:
 - Arduino Uno: This is a micro-controller which coordinates all the necessary operations of the circuit.
 - Ultrasonic Sensor: This is a sensor which detects the distance from the tank top to the water level.

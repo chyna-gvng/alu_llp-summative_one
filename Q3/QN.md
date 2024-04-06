@@ -1,5 +1,5 @@
 ### QUESTION THREE
-S&T Suppliers is hiring for the new roles in the company, the details are found in the this directory(https://github.com/t4gatera/summative.git). You are required to clone the repository and complete the tasks that follows:
+S&T Suppliers is hiring for the new roles in the company, the details are found in the this (directory)[https://github.com/t4gatera/summative.git]. You are required to clone the repository and complete the tasks that follows:
 
 Task 1:
 

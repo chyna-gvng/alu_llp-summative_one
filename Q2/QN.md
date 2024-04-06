@@ -11,10 +11,9 @@ The consultant made the following observations:
 ##### The work of a consultant
 
 The consultant designed a circuit with the following components:
-
-Arduino Uno: This is a micro-controller which coordinates all the necessary operations of the circuit.
-Ultrasonic Sensor: This is a sensor which detects the distance from the tank top to the water level.
-Piezo (buzzer): This will make sound when water gets to critical level
-Green LED: This LED will keep up lighted up when water is still in sufficient level.
-Red LED: This LED will keep up lighted up when water is bellow sufficient level but still above critical level.
-Resistor: This controls the current flow such that voltage from the source is reduced to get to the appliance in the required amount.
+- Arduino Uno: This is a micro-controller which coordinates all the necessary operations of the circuit.
+- Ultrasonic Sensor: This is a sensor which detects the distance from the tank top to the water level.
+- Piezo (buzzer): This will make sound when water gets to critical level
+- Green LED: This LED will keep up lighted up when water is still in sufficient level.
+- Red LED: This LED will keep up lighted up when water is bellow sufficient level but still above critical level.
+- Resistor: This controls the current flow such that voltage from the source is reduced to get to the appliance in the required amount.

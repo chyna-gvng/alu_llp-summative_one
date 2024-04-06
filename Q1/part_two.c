@@ -38,7 +38,7 @@ int main() {
     } else {
         double probability = (double)(totalCombinations - position) / totalCombinations;
         printf("Position: %d\n", position);
-        printf("Probability: %.10f\n", pin, probability);
+        printf("Probability: %.10f\n", probability);
     }
 
     return 0;

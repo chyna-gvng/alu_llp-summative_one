@@ -2,7 +2,7 @@
 #define RED_LED 2
 #define BUZZER 0
 
-#define TANK_FULL_LEVEL 396
+#define FULL_TANK_LEVEL 396
 #define GREEN_LED_THRESHOLD 350
 #define RED_LED_THRESHOLD 150
 #define BUZZER_INTERVAL 10000
@@ -27,11 +27,11 @@ void loop()
 
 float simulateDrain()
 {
-  static float drainLevel = TANK_FULL_LEVEL;
+  static float drainLevel = FULL_TANK_LEVEL;
   drainLevel -= 5;
   if (drainLevel < 0)
   {
-    drainLevel = TANK_FULL_LEVEL;
+    drainLevel = FULL_TANK_LEVEL;
   }
   return drainLevel;
 }

@@ -67,3 +67,4 @@ void triggerBuzzer(unsigned long currentTime)
     previousTime = currentTime;
   }
 }
+

@@ -67,5 +67,3 @@ void triggerBuzzer(unsigned long currentTime)
     previousTime = currentTime;
   }
 }
-
-// Path: Q2/question_two.c

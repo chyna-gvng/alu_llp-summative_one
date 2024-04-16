@@ -29,7 +29,7 @@ void loop()
 float simulateDrain()
 {
   static float drainLevel = FULL_TANK_LEVEL;
-  drainLevel -= 5;
+  drainLevel -= 5; //Default: 0.01, Testing: 5
   if (drainLevel < 0)
   {
     drainLevel = FULL_TANK_LEVEL;

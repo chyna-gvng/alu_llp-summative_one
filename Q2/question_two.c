@@ -25,6 +25,7 @@ void loop()
   delay(50);
 }
 
+// TESTTING: Adjust drainLevel to a higher value to test the program
 float simulateDrain()
 {
   static float drainLevel = FULL_TANK_LEVEL;
